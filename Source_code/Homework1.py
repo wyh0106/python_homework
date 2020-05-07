@@ -12,7 +12,7 @@
 
 # ————————————————————程序初始化——————————————————————
 # 将文件读入到station里
-file = open(r"Resource.txt", "r")
+file = open(r"resource\Resource.txt", "r")
 station = file.read()
 # 将整个列表排序，这样会将相同的字符全都相邻，方便后续处理
 sta_C = sorted(station)
