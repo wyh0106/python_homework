@@ -1,5 +1,12 @@
 
+fn = 'resource\pi_million_digits.txt'
 
-with open("resource\pi_digits.txt") as pi_file:
-    contents = pi_file.read()
-    print(contents.rstrip())
+with open(fn) as pi_file:
+    lines = pi_file.readlines()
+
+pi_num = ''
+
+for line in lines:
+    pi_num += line.strip()
+
+print(lines)
