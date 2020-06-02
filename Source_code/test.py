@@ -1,8 +1,9 @@
-sum = 0
-num = 16
-while(num <= 100):
-    print(str(num) + '的三次方:' + str(pow(num, 3)))
-    sum = sum + pow(num, 3)
-    num += 2
+import numpy as np
 
-print('\n以上总和为' + str(sum))
+A = np.array([3., 3., 3., 3.])
+X = np.array([3.012, 2.918, 3.004, 3.014])
+
+E = X - A
+delta = E/A*100
+
+print(np.around(delta, 2))
