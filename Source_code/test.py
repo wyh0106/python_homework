@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 x = [5.335, 4.653, 0.632, 5.328, 3.226, 6.661, -3.331, 3.341, 1.975, -2.095, 4.003, 2.008]
 

@@ -7,7 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludePattern pattern="C:\Users\weiyh\AppData\Roaming\Python\Python38" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (Python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (venv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
