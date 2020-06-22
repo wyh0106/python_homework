@@ -13,4 +13,3 @@ plt.scatter(x, y, s = 0.5, c = 'red')
 plt.scatter(x[-1], y[-1], c = 'blue')
 
 plt.show()
-
