@@ -1,0 +1,22 @@
+[
+    {
+        "name": "pdt",
+        "password": "1321",
+        "state": 1
+    },
+    {
+        "name": "sdd",
+        "password": "1111",
+        "state": 0
+    },
+    {
+        "name": "jqu",
+        "password": "2222",
+        "state": 1
+    },
+    {
+        "name": "png",
+        "password": "3333",
+        "state": 1
+    }
+]
