@@ -1,4 +1,5 @@
 import numpy as np
+from matplotlib import pyplot as plt
 
 def newton_interpolation(x,X,Y):
     """
@@ -23,4 +24,8 @@ x = np.arange(0, 0.55, 0.05)
 y = np.array([0, 37, 71, 104, 134, 161, 185, 207, 225, 239, 250])
 
 F = newton_interpolation(0.42, x, y)
-print(F)
+
+plt.plot(x, y)
+plt.scatter(x, y, color = 'red')
+plt.scatter(0.42, F, color = 'blue')
+plt.ion()

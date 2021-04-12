@@ -1,21 +1,21 @@
 [
     {
-        "name": "pdt",
-        "password": "1321",
+        "name": "Fixer",
+        "password": "0000",
         "state": 1
     },
     {
-        "name": "sdd",
+        "name": "Poi",
         "password": "1111",
-        "state": 0
+        "state": 1
     },
     {
-        "name": "jqu",
+        "name": "Ora",
         "password": "2222",
         "state": 1
     },
     {
-        "name": "png",
+        "name": "Joker",
         "password": "3333",
         "state": 1
     }

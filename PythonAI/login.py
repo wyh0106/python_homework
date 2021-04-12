@@ -6,7 +6,7 @@ with open(fn, 'r') as user:
 state = 3
 
 while state:
-	name = input("USER NAME: ")					# 输入用户名
+	name = input("\nUSER NAME: ")				# 输入用户名
 	passw = input("PASSWORD: ")					# 输入密码
 
 	sq = 0
