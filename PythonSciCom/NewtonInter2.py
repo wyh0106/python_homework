@@ -1,6 +1,7 @@
+#%%
 import numpy as np
 from matplotlib import pyplot as plt
-
+# %%
 def newton_interpolation(x,X,Y):
     """
     计算x点的插值
@@ -19,7 +20,7 @@ def newton_interpolation(x,X,Y):
             temp[j,i]=(temp[j,i-1]-temp[j-1,i-1])/(X[j]-X[j-i])
         sum+=temp_sum*temp[i,i] 
     return sum
-
+# %%
 x = np.arange(0, 0.55, 0.05)
 y = np.array([0, 37, 71, 104, 134, 161, 185, 207, 225, 239, 250])
 
